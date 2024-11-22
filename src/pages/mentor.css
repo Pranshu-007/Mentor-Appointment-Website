@@ -1,0 +1,547 @@
+/* .card {
+    width: 190px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+}
+
+.card-image {
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-image:hover {
+    transform: scale(0.98);
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+button {
+    padding: 1.3em 3em;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(28, 34, 31, 0.4);
+    color: #fff;
+    transform: translateY(2px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+.name {
+    font-weight: 600;
+}
+
+.name:hover {
+    cursor: pointer;
+} */
+
+
+
+
+/* Card Container */
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    color: #d9d9d9;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Mentor Name */
+  .category {
+    font-size: 18px;
+    font-weight: bold;
+    color: #14a9ff;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  /* Mentor Bio and Details */
+  .heading {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d9d9d9;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* Author Section */
+  .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .author .name {
+    font-weight: bold;
+    margin-right: 4px;
+    color: #85dcff;
+  }
+  
+  /* Button */
+  .btn {
+    background: #0074f0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #14a9ff;
+  }
+  
+
+
+
+
+.timeSlotButton {
+    background-color: #32A94C; /* Green background for buttons */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .timeSlotButton:hover {
+    background-color: #4CC366; /* Lighter green on hover */
+  }
+  
+
+
+
+
+  .booking-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .mentor-details {
+    width: 45%;
+    padding: 10px;
+    border-right: 2px solid #ddd;
+  }
+  
+  .mentor-details h2 {
+    margin: 0;
+  }
+  
+  .calendar-container {
+    width: 45%;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  .available {
+    background-color: #f0f8ff;
+  }
+  
+  .time-slots {
+    margin-top: 20px;
+  }
+  
+  .time-slots ul {
+    padding: 0;
+  }
+  
+  .time-slots li {
+    margin: 5px 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mentor Detail Page CSS*/
+
+  /* Main Container */
+.mentor-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .mentor-card {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(135deg, #ffffff, #f0f8ff);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .mentor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .mentor-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .mentor-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0074F0;
+    margin-right: 20px;
+  }
+  
+  .mentor-info {
+    flex-grow: 1;
+  }
+  
+  .mentor-name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #003EB3;
+    margin-bottom: 8px;
+  }
+  
+  .mentor-title {
+    font-size: 18px;
+    color: #595959;
+    margin-bottom: 5px;
+  }
+  
+  .mentor-rating {
+    font-size: 16px;
+    color: #32A94C;
+  }
+  
+  .mentor-body {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-top: 15px;
+  }
+  
+  .mentor-bio {
+    font-size: 16px;
+    color: #595959;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .mentor-skills h3 {
+    font-size: 20px;
+    color: #0074F0;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item {
+    display: inline-block;
+    font-size: 14px;
+    color: #ffffff;
+    background: #0074F0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 5px;
+  }
+  
+  .mentor-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .contact-button,
+  .view-portfolio-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button {
+    background-color: #0074F0;
+  }
+  
+  .contact-button:hover {
+    background-color: #005BB5;
+  }
+  
+  .view-portfolio-button {
+    background-color: #32A94C;
+  }
+  
+  .view-portfolio-button:hover {
+    background-color: #199033;
+  }
+  
+  
+  /* Booking Section */
+  .booking-section {
+    flex: 1 1 45%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .calendar-time-slot-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  .calendar-container {
+    flex: 1 1 50%;
+  }
+  
+  .time-slot-container {
+    flex: 1 1 45%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .time-slot-button {
+    padding: 12px;
+    margin: 5px 0;
+    background-color: #32A94C;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .time-slot-button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .textarea {
+    height: 100px;
+  }
+  
+  .book-button {
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .book-button:hover {
+    background-color: #2ecc71;
+  }
+  
+
+
+
+
+
+  /* mentors list */
+
+
+/* Mentor List Container */
+.mentor-list-container {
+    background-color: #0f0f0f;
+    color: #d9d9d9;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .mentor-list-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #14a9ff;
+  }
+  
+  /* Filter Dropdown */
+  .filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .filter-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #85dcff;
+    margin-right: 10px;
+  }
+  
+  .filter-dropdown {
+    background-color: #1a1a1a;
+    color: #d9d9d9;
+    border: 2px solid #85dcff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-dropdown:hover {
+    border-color: #14a9ff;
+  }
+  
+  /* Mentor Cards Container */
+  .mentor-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+  }
+  

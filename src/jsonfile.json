@@ -1,0 +1,101 @@
+[
+  {
+    "name": "John Doe",
+    "title": "Career Coach",
+    "bio": "Helping individuals reach their career goals for over 10 years.",
+    "skills": ["Resume Review", "Interview Preparation", "LinkedIn"],
+    "rating": 4.8,
+    "availableSlots": [
+      { "date": "2024-11-20", "slots": ["10:00 AM", "2:00 PM", "4:00 PM"] },
+      { "date": "2024-11-21", "slots": ["11:00 AM", "1:00 PM"] }
+    ]
+  },
+  {
+    "name": "Jane Smith",
+    "title": "Life Coach",
+    "bio": "Specializing in time management and stress reduction strategies.",
+    "skills": ["Time Management", "Stress Management", "Wellness Coaching"],
+    "rating": 4.7,
+    "availableSlots": [
+      { "date": "2024-11-22", "slots": ["9:00 AM", "11:00 AM", "3:00 PM"] },
+      { "date": "2024-11-23", "slots": ["10:00 AM", "4:00 PM"] }
+    ]
+  },
+  {
+    "name": "Mark Taylor",
+    "title": "Tech Mentor",
+    "bio": "Guiding professionals to upskill in emerging technologies.",
+    "skills": ["JavaScript", "React", "Python"],
+    "rating": 4.6,
+    "availableSlots": [
+      { "date": "2024-11-24", "slots": ["10:00 AM", "1:00 PM", "3:30 PM"] },
+      { "date": "2024-11-25", "slots": ["2:00 PM", "5:00 PM"] }
+    ]
+  },
+  {
+    "name": "Emily Johnson",
+    "title": "Financial Advisor",
+    "bio": "Helping clients manage their finances effectively for 8 years.",
+    "skills": ["Investment Planning", "Tax Strategies", "Budgeting"],
+    "rating": 4.9,
+    "availableSlots": [
+      { "date": "2024-11-26", "slots": ["8:00 AM", "12:00 PM", "6:00 PM"] },
+      { "date": "2024-11-27", "slots": ["10:30 AM", "3:00 PM"] }
+    ]
+  },
+  {
+    "name": "Sophia Brown",
+    "title": "Health Coach",
+    "bio": "Helping individuals achieve a balanced and healthy lifestyle.",
+    "skills": ["Nutrition", "Fitness Plans", "Mental Wellness"],
+    "rating": 4.5,
+    "availableSlots": [
+      { "date": "2024-11-28", "slots": ["7:00 AM", "1:00 PM", "4:00 PM"] },
+      { "date": "2024-11-29", "slots": ["9:00 AM", "2:00 PM"] }
+    ]
+  },
+  {
+    "name": "David Wilson",
+    "title": "Coding Mentor",
+    "bio": "Teaching coding fundamentals to beginners for over 5 years.",
+    "skills": ["Java", "C++", "Data Structures"],
+    "rating": 4.4,
+    "availableSlots": [
+      { "date": "2024-11-30", "slots": ["11:00 AM", "3:00 PM", "6:00 PM"] },
+      { "date": "2024-12-01", "slots": ["1:00 PM", "4:30 PM"] }
+    ]
+  },
+  {
+    "name": "Mia Evans",
+    "title": "Soft Skills Trainer",
+    "bio": "Enhancing communication and leadership skills for professionals.",
+    "skills": ["Public Speaking", "Team Building", "Leadership"],
+    "rating": 4.8,
+    "availableSlots": [
+      { "date": "2024-12-02", "slots": ["10:00 AM", "12:00 PM", "3:00 PM"] },
+      { "date": "2024-12-03", "slots": ["9:30 AM", "4:00 PM"] }
+    ]
+  },
+  {
+    "name": "James Lee",
+    "title": "Data Science Mentor",
+    "bio": "Helping students dive into data science and machine learning.",
+    "skills": ["Machine Learning", "Data Visualization", "Python"],
+    "rating": 4.6,
+    "availableSlots": [
+      { "date": "2024-12-04", "slots": ["10:30 AM", "1:30 PM", "3:30 PM"] },
+      { "date": "2024-12-05", "slots": ["11:00 AM", "2:00 PM"] }
+    ]
+  },
+  {
+    "name": "Isabella Martinez",
+    "title": "Marketing Consultant",
+    "bio": "Helping businesses grow with effective marketing strategies.",
+    "skills": ["SEO", "Content Marketing", "Social Media"],
+    "rating": 4.7,
+    "availableSlots": [
+      { "date": "2024-12-06", "slots": ["9:00 AM", "1:00 PM", "5:00 PM"] },
+      { "date": "2024-12-07", "slots": ["10:00 AM", "2:30 PM"] }
+    ]
+  }
+]
