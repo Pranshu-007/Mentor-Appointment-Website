@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mentor Booking Website</title>
 </head>
 <body>
 
@@ -32,7 +31,7 @@
   <p>Ensure you have the following installed:</p>
   <ul>
     <li><a href="https://nodejs.org/">Node.js</a></li>
-    <li><a href="https://npmjs.com/">npm</a> (Comes with Node.js)</li>
+    <a href="https://npmjs.com/">npm</a> (Comes with Node.js)
   </ul>
 
   <h3>Installation</h3>
@@ -60,18 +59,21 @@
   <pre><code>
 /mentor-booking-website
 │
-├── /src
-│   ├── /components        # Contains reusable components (e.g., Calendar, MentorCard)
-│   ├── /pages            # Contains main pages (e.g., MentorList, MentorDetail)
-│   ├── /assets           # Contains images, icons, and other assets
-│   ├── /styles           # Custom styles for the application
-│   └── App.js            # Main component that ties everything together
-│
 ├── /public
-│   └── index.html        # Main HTML file
+│   ├── /branding           # Contains branding images like logos and banners
+│   ├── /icons              # Contains icons (e.g., user icons, other images)
+│   ├── /sectionImage       # Contains images for various sections
+│   ├── index.html          # Main HTML file
+│   └── favicon.ico         # Icon for the site
 │
-├── package.json          # Project dependencies and scripts
-└── README.md             # Project documentation
+├── /src
+│   ├── /components         # Contains reusable components (e.g., Calendar, MentorCard)
+│   ├── /pages             # Contains main pages (e.g., MentorList, MentorDetail)
+│   ├── /styles            # Custom styles for the application
+│   ├── App.js             # Main component that ties everything together
+│
+├── package.json           # Project dependencies and scripts
+└── README.md              # Project documentation
   </code></pre>
 
   <h2>Available Pages</h2>
@@ -88,28 +90,6 @@
     </li>
     <li><strong>Booking Form</strong>: After selecting a time slot, users can fill in their name, email, and discussion topic, and submit the booking.</li>
   </ol>
-
-  <h2>Features in Detail</h2>
-
-  <h3>Mentor List Page</h3>
-  <ul>
-    <li>Displays mentors in a grid, with the ability to filter mentors by their skill sets.</li>
-    <li>Clicking on a mentor redirects to the mentor's detail page.</li>
-  </ul>
-
-  <h3>Mentor Detail Page</h3>
-  <ul>
-    <li>View mentor’s bio, skills, rating, and available time slots.</li>
-    <li>The calendar shows available dates in a light green color. After selecting a date, available time slots are displayed.</li>
-    <li>Time slots are provided for the user to choose, and once selected, a booking form is shown.</li>
-  </ul>
-
-  <h3>Booking Form</h3>
-  <ul>
-    <li>Fill in your details (name, email, and discussion topic).</li>
-    <li>Submit the form to confirm the booking.</li>
-    <li>On successful submission, a confirmation message is shown, and the form is reset.</li>
-  </ul>
 
   <h2>License</h2>
   <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
