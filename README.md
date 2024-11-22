@@ -10,6 +10,14 @@
 
   <p>Welcome to the Mentor Booking Website! This platform allows users to browse a list of mentors across various skill sets, view their details, check availability, and book appointments for topic discussions.</p>
 
+  <h4>Implemented Feature</h4>
+  <ul>
+    <li><strong>Filter by Skill:</strong> Mentors can be filtered out on the basis of Skills they have.</li>
+    <li><strong>CalendarUi with Available Date:</strong> Used Map function for getting Available date and time slots from which user can choose their appointments.</li>
+    <li><strong>Available Dates & Time Slots:</strong> View a calendar of available dates for each mentor and select a time slot for your session.</li>
+    <li><strong>Window Refresh:</strong> After Successfull confirmation message pop up the window refreshes making it easy for the users to check booked slots.</li>
+  </ul>
+
   <h2>Features</h2>
   <ul>
     <li><strong>Home Page:</strong> Displays a list of mentors with their names, skills, and ratings.</li>
